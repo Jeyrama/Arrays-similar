@@ -24,3 +24,8 @@ function arraysSimilar(arr1, arr2) {
 function sortFunc(a,b) {return a-b;}
 
 // or
+
+function arraysSimilar(arr1, arr2) {
+  let reducer = (accumulator, currentValue) => accumulator + currentValue
+  return arr1.reduce(reducer) === arr2.reduce(reducer)
+}
