@@ -22,3 +22,5 @@ function arraysSimilar(arr1, arr2) {
 }
 
 function sortFunc(a,b) {return a-b;}
+
+// or
