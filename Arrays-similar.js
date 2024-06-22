@@ -11,3 +11,6 @@ arraysSimilar(arr1, arr2); // Should equal true
 arraysSimilar(arr2, arr3); // Should equal false
 arraysSimilar(arr3, arr4); // Should equal false
 */
+
+
+// Solution
